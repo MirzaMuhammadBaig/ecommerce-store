@@ -1,0 +1,66 @@
+AUTHENTICATION:
+Login Admin : http://localhost:3000/api/user/admin-login
+Register user: POST: http://localhost:3000/api/user/register
+Login user: POST : http://localhost:3000/api/user/login
+Get A user : GET:  http://localhost:3000/api/user/63ef36b11828dff4a4370af0
+Get all users: GET : http://localhost:3000/api/user/all-users
+Delete A user: DELETE : http://localhost:3000/api/user/63ef371d1828dff4a4370b00
+Edit user: PUT : http://localhost:3000/api/user/edit-user
+Update password : PUT : http://localhost:3000/api/user/password
+Blockc A user : PUT : http://localhost:3000/api/user/block-user/63ef37081828dff4a4370afa
+UnBlock A USer : PUT : http://localhost:3000/api/user/unblock-user/63ef37081828dff4a4370afa
+Get JWT token : GET : http://localhost:3000/api/user/refresh
+Logout A User : GET : http://localhost:3000/api/user/logout
+
+PRODUCTS:
+Get All Products : GET : http://localhost:3000/api/product
+Get A product : GET : http://localhost:3000/api/product/63f341583ad84d08ba3c1231
+Create A product : PUT : http://localhost:3000/api/product
+Add to wishlist : PUT : http://localhost:3000/api/product/wishlist
+Update A product : PUT : http://localhost:3000/api/product/63eb3452bc678dd0a37a0ce2
+Create / Update rating : PUT : http://localhost:3000/api/product/rating
+
+IMAGE:
+Upload product image : POST : http://localhost:3000/api/upload (not completed)
+
+CATEGORY:
+Add product category : POST : http://localhost:3000/api/category
+Update category : PUT : http://localhost:3000/api/category/63f4ac24281171e646641846
+Get all category : GET : http://localhost:3000/api/category
+Delete A category : DELETE : http://localhost:3000/api/category/63eb392abc678dd0a37a0cfe
+Get A category : Get : http://localhost:3000/api/category/63eb3a5bbc678dd0a37a0d13
+
+Sub-category:
+Add product sub-category : POST : http://localhost:3000/api/subcategory/
+Update sub-category : PUT : http://localhost:3000/api/subcategory/63f4b230f8f1dc2aab737a97
+Get all sub-category : GET : http://localhost:3000/api/subcategory
+Get A sub-category : GET : http://localhost:3000/api/subcategory/63eb3a5bbc678dd0a37a0d13
+Delete A category : DELETE : http://localhost:3000/api/subcategory/63eb392abc678dd0a37a0cfe
+
+BRAND:
+Create a brand : POST : http://localhost:3000/api/brand
+Get all brands : GET : http://localhost:3000/api/brand
+Get a brand : GET : http://localhost:3000/api/brand/63ef4d1f8942654d0ba37886
+Update a brand : PUT : http://localhost:3000/api/brand/63f4b3d5f8f1dc2aab737aa5
+Delete a brand : DELETE : http://localhost:3000/api/brand/63f4b3d5f8f1dc2aab737aa5
+
+COLOR:
+Create a color : POST : http://localhost:3000/api/color
+Get all colors : GET : http://localhost:3000/api/color
+Get a color : GET : http://localhost:3000/api/color/63f4b477f8f1dc2aab737ab2
+Update A color : PUT : http://localhost:3000/api/color/63f4b477f8f1dc2aab737ab2
+Delete A color : DELETE : http://localhost:3000/api/color/63f4b477f8f1dc2aab737ab2
+
+ORDER:
+Create order : POST : http://localhost:3000/api/user/cart/cash-order
+Get A order : GET : http://localhost:3000/api/user/get-orders
+Get all orders : GET : http://localhost:3000/api/user/getallorders
+Create user cart : POST : http://localhost:3000/api/user/cart
+Get user cart : GET : http://localhost:3000/api/user/cart
+Update orders : PUT : http://localhost:3000/api/user/order/update-order/63ef60fdded55fc87ca27722
+Delete cart : DELETE : http://localhost:3000/api/user/empty-cart
+Create / Update address : PUT : http://localhost:3000/api/user/save-address
+
+DELIVERY DETAIL:
+Create Delivery: POST :http://localhost:4000/api/user/cart/delivery/detail
+Get Delivery Detail: GET :http://localhost:4000/api/user/cart/delivery/detail
